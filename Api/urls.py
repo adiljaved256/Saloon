@@ -6,6 +6,8 @@ urlpatterns = [
 #web urls  home
 path('login',login.as_view()),
 path('Register',Register.as_view()),
+path('AdminLogin',AdminLogin.as_view()),
+path('AdminRegister',AdminRegister.as_view()),
 path('roles',roles.as_view()),
 path('dataget_saloon',dataget_saloon.as_view()),
 path('datagets',datagets.as_view()),
@@ -23,6 +25,5 @@ path('addimages',addimages.as_view()),
 path('float_list_data',float_list_data.as_view()),
 # path('dataget_image',dataget_image.as_view()),
 
-# path('dataget_emplo',dataget_emplo.as_view()),
 
 ]
